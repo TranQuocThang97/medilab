@@ -1,0 +1,250 @@
+/*custom css by bootstrap*/
+/*common css*/
+.btn{
+	font-size:12px;
+	padding:8px 12px;
+	height:34px;
+	font-weight:700;
+	text-transform:uppercase;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+.btn.disabled{
+	cursor:not-allowed;
+	pointer-events:auto !important;
+}
+.btn .icon-left{
+	margin-right:5px;
+}
+.btn .icon-right{
+	margin-left:5px;
+}
+.btn-sm,
+.btn-group-sm > .btn{
+	padding:5px 10px;
+	height:auto;
+}
+.btn-lg,
+.btn-group-lg > .btn{
+	padding:11px 16px;
+	height:auto;
+	font-size:16px;
+}
+.btn-link:focus,
+.btn-link:hover{
+	text-decoration:none;
+}
+.btn-warning{
+	background-color:#fd9927;
+	border-color:#fd9927;
+}
+.btn-warning:hover,
+.btn-warning:focus{
+	background-color:#000;
+	border-color:#000;
+}
+.btn-danger{
+	background-color:#e41c2c;
+	border-color:#e41c2c;
+}
+.btn-danger:hover,
+.btn-danger:focus{
+	background-color:#000;
+	border-color:#000;
+}
+.btn-right {
+	background: #1c60b4;
+	color: #fff;
+	border:none;  
+	height: auto;
+	text-transform: uppercase;
+	font-weight: bold;
+	min-width: 120px;
+	min-height: 34px;
+}
+.btn-right:hover {
+	background: #1c60b4;
+	color: #fff;
+}
+.form-control{
+	font-size:12px;
+	padding:4px 10px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+	outline:none;
+}
+.form-control:focus{
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+	outline:none;
+}
+.text-inlineblock{
+	display:inline-block !important;
+	vertical-align:top;
+	width:auto;
+}
+.text-danger{
+	color:#ff0000;
+}
+.text-warning{
+	color:#fba224;
+}
+.box-captcha{
+	display:inline-block;
+	border:1px solid #b8b8b8;
+	margin:0 0 5px;
+	vertical-align:middle;
+}
+.btnnewimg{
+    background: url(../images/btnnewimg.png) no-repeat;
+    border:none;
+    box-shadow:none;
+    cursor:pointer;
+    height:31px;
+    margin:0 0 0 5px;
+    text-indent:-9999px;
+    vertical-align:middle;
+    width:30px;
+	display:inline-block;
+}
+.faq-tooltip{
+	font-size:16px;
+	color:#000;
+	vertical-align:top;
+}
+.checkbox .fa,
+.radio .fa{
+	position:absolute;
+	margin-left:-20px;
+	color:#d9d9d9;
+	font-size:17px;
+}
+.checkbox.active .fa,
+.radio.active .fa{
+	color:#e41c2c;
+}
+.checkbox .faq-tooltip, .radio .faq-tooltip{
+	font-size:16px;
+	color:#000;
+	vertical-align:top;
+	margin-left:0;
+	position:static;
+}
+/*end common css*/
+/*modal*/
+.modal-header{
+	padding:0;
+	text-align:right;
+	border-bottom:none;
+	margin-bottom:-3px;
+}
+.modal-header .close{
+	float:none;
+	display:inline-block;
+	vertical-align:top;
+	background-color:#fff;
+	opacity:1;
+	padding:5px 12px 8px;
+	margin-top:0;
+	position:relative;
+	z-index:10;
+}
+.modal-header .close .close-text{
+	font-size:12px;
+	display:inline-block;
+	vertical-align:middle;
+	margin-left:5px;
+}
+.modal-content{
+	background-color:transparent;
+	border:none;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	border-radius:0;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}
+.modal-body{
+	background-color:#fff;
+	padding:0;
+}
+.modal-footer{
+	background-color: #fff;
+	-moz-box-shadow:0 5px 5px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow:0 5px 5px rgba(0, 0, 0, 0.2);
+	box-shadow:0 5px 5px rgba(0, 0, 0, 0.2);
+	border-top: none;
+}
+.modal-inner{
+	padding:15px;
+}
+/*end modal*/
+.form label{
+	font-size:12px;
+}
+.bg-message{
+	padding:10px 15px;
+}
+.bg-message .bm-title{
+	color:#ce1f23;
+	font-size:20px;
+	font-weight:700;
+	margin:0 0 10px;
+}
+.bg-message .bm-title .fa{
+	margin-right:5px;
+}
+.bg-message p{
+	font-size:12px;
+}
+.bg-message.bg-danger{
+	color:#833636;
+}
+.form .form-scan{
+	position:relative;
+	z-index:1;
+}
+.form .form-scan .fa-camera{
+	font-size:18px;
+	position:absolute;
+	z-index:2;
+	top:34px;
+	right:10px;
+}
+.form .form-scan .form-control{
+	padding:4px 30px 4px 10px;
+}
+@media (max-width: 991px){
+	.modal-footer{
+		margin-top: -20px;
+	}
+}
+@media (max-width: 767px){
+
+}
+@media (max-width: 533px){
+
+}
+@media (max-width: 360px){
+	.rating-md{
+		text-align: center;
+	}
+	.star-rating .caption{
+		width: 100%;
+	}
+}
+@media (max-width: 414px){
+	.bg-message{
+		padding:10px;
+	}
+	.bg-message .bm-title{
+		font-size:18px;
+	}
+}

@@ -1,0 +1,59 @@
+/*Add font ================================*/
+#event_checkin h1 {
+  font: 600 32px/1 "Sarabun";
+  color: #4A4647;
+  margin-bottom: 30px;
+}
+#event_checkin .box-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+}
+#event_checkin .box-info .picture img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+@media (min-width: 576px) {
+  #event_checkin .box-info .info {
+    padding-left: 30px;
+  }
+}
+#event_checkin .box-info .info .title {
+  font: 600 20px/150% "Sarabun";
+  color: #4A4647;
+}
+#event_checkin .box-info .info .address {
+  font: 400 17px/150% "Sarabun";
+  color: #979797;
+  padding: 5px 0;
+}
+#event_checkin .box-info .info .datetime {
+  font: 400 17px/150% "Sarabun";
+  color: #FF960B;
+}
+
+#video-container {
+  width: 100%;
+  max-width: 640px;
+}
+#video-container .inner {
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+}
+#video-container .inner video, #video-container .inner .scan-region-highlight {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scaleX(-1);
+          transform: translate(-50%, -50%) scaleX(-1);
+}

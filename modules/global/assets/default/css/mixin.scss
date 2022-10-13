@@ -1,0 +1,35 @@
+$base: 15px;
+$DIR_IMAGE: "../../../../../resources/images";
+/*Add font ================================*/
+@mixin font-face($value, $name, $font_weight){
+    @font-face {
+        font-family: $name;
+        src: url('../fonts/'+ $value +'.woff2') format('woff2'),
+        url('../fonts/'+ $value +'.woff') format('woff'),
+        url('../fonts/'+ $value +'.ttf') format('truetype'),
+        url('../fonts/'+ $value +'.otf') format('opentype'),
+        url('../fonts/' + $value + '.eot#iefix') format('embedded-opentype'),
+        url('../fonts/'+ $value +'.svg#'+ $value) format('svg');
+        font-weight: $font_weight;
+        font-style: normal;
+        font-display: swap;
+    }
+}
+@mixin font-size($font-size) {
+    font-size: ($font-size / $base) + rem;
+}
+@mixin font($font-weight, $font-size, $line-height, $font-family, $sans:'') {
+    @if $font-family == ''{
+        $font-family: SFProDisplay-Regular,sans-serif;
+    }
+    @if $sans == 1{
+        $font-family: $font-family ,sans-serif;
+    }
+    @if $sans == 0{
+        $font-family: $font-family ,serif;
+    }
+    @if $line-height == ''{
+        $line-height: 150%;
+    }
+    font: $font-weight $font-size+/$line-height $font-family;
+}

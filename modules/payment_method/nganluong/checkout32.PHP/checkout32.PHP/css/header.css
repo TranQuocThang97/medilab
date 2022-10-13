@@ -1,0 +1,134 @@
+.drop-login{width: 320px;
+	padding: 20px}
+.drop-login .login-title{
+	margin-bottom: 20px;
+	text-align: left;
+}
+.drop-login .login-title h1{
+	font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+}
+.drop-login .login-title h1 span{
+    font-size: 15px;
+    font-weight: bold;
+}
+.drop-login .login-title h1 > a#register{
+	    padding: 0;
+    font-size: 18px;
+    font-weight: normal;
+    color: #0074be;
+    font-weight: bold;
+}
+.drop-login .login-content{}
+.drop-login .login-content .login-text{}
+.drop-login .login-content .login-text p{
+	float: left;
+}
+.drop-login .login-content .login-text a{
+	float: right;
+	color: #378ed2;
+	font-size: 12px;
+}
+.drop-login .login-content .login-text input[type="text"],
+.drop-login .login-content .login-text input[type="password"]{
+	width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+   
+}
+.drop-login .login-content .login-text .login-inp{
+	position: relative;
+}
+.drop-login .login-content .login-text .login-inp .login-icon{
+	position: absolute;
+    bottom: 23px;
+    right: 9px;
+}
+.drop-login .login-content .login-text .login-inp .login-icon i{
+	font-size: 20px;
+}
+.drop-login .login-content .login-check{
+	margin-top: 10px;
+}
+.drop-login .login-content .login-check input[type="checkbox"]{}
+.drop-login .login-content .login-check a{
+	float: right;
+	color: #44af38;
+	text-decoration: underline;
+	font-size: 12px;
+	padding:0; 
+}
+.drop-login .login-content .login-btn{}
+.drop-login .login-content .login-btn button{
+	width: 50%;
+	border: 0px;
+	background: #0074be;
+	color: #fff;
+	font-size: 13px;
+	padding: 8px 0px;
+	font-weight: bold;
+	outline: none;
+}
+.drop-login .login-content .login-btn a{
+	float: right;
+	display: inline-block;
+	width: 50%
+}
+.drop-login .login-content .login-btn a img{
+	width: 100%
+}                                          
+ 
+.drop-login .login-line{
+	text-align: center;
+	margin-top: 20px;
+}
+.drop-login .login-line b{
+	font-weight: normal;
+	position: relative;
+}
+.drop-login .login-line b:before{
+	content: '';
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    left: -123px;
+    background: #ccc;
+    top: 7px;
+}
+.drop-login .login-line b:after{
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 1px;
+	right: -123px;
+	background: #ccc;
+	top: 7px;
+}
+.drop-login .login-log{}
+.drop-login .login-log ul{
+	padding: 0;
+	margin: 0;
+}
+.drop-login .login-log ul li{
+	list-style: none;
+	float: left;
+	margin-right: 23px;
+}
+.drop-login .login-log ul li:last-child{
+	margin-right: 0px;
+}
+.drop-login > .login-log ul > li > a{
+	display: inline-block;
+	padding: 0px;
+}
+.drop-login .login-other{text-align: center; margin-top: 15px;color: #378ed2}
+.drop-login .login-other > b{font-size: 12px;}
+.drop-login .login-other > b > a{
+	padding: 0!important;
+	color: #0074be!important;
+
+}

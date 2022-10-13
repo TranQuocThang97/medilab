@@ -1,0 +1,199 @@
+@import "../../../../global/assets/default/css/mixin.scss";
+
+.list_item_product{
+	width: 100%;
+	.row_item{
+		display: flex;
+		flex-wrap: wrap;
+        margin: 0 -10px;
+        @media (max-width: 992px) {
+            margin: 0 -7px;
+        }
+		.row_empty{
+		    width: 100%;
+		    padding: 50px;
+		    margin-bottom: 35px;
+		    text-align: center;
+		    font-size: 20px;
+		    color: #999;
+		}
+		.col_item{
+			padding: 0 10px 20px;
+            @media (max-width: 992px) {
+                padding: 0 7px 15px;
+            }
+            @media (max-width: 350px) {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+			.item{
+                height: 100%;
+                transition: all 300ms ease 0s;
+                background: #FFF;
+                box-shadow: 0 0 20px rgba(0,0,0,.05);
+                &:hover{
+                    box-shadow: 0 0 20px rgba(0,0,0,.2);
+                }
+				.img{
+					a{
+                        padding-top: 56.8%;
+                        img.lazyloaded{
+                            width: 100%;
+                        }
+					}
+                    .add_favorite{
+                        color: #4A4647;
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 50%;
+                        cursor: pointer;
+                        width: 44px;
+                        height: 44px;
+                        box-shadow: 0 3px 6px rgba(0,0,0,.1);
+                        font-size: 18px;
+                        font-weight: 500;
+                        float: right;
+                        margin-top: -22px;
+                        position: relative;
+                        z-index: 1;
+                        background: #FFF;
+                        margin-right: 15px;
+                        @media (max-width: 992px) {
+                            width: 38px;
+                            height: 38px;
+                            margin-right: 12px;
+                            margin-top: -19px;
+                        }
+                        i{
+                            height: 24px;
+                        }
+                        &:hover, &:focus, &.added{
+                            i{
+                                font-weight: 900;
+                                color: #E60018;
+                            }
+                        }
+                    }
+				}
+				.info{
+                    font-size: 16px;
+                    padding: 0 20px 28px;
+                    @media (max-width: 992px) {
+                        padding: 0 12px 15px;
+                        font-size: 15px;
+                    }
+                    &:before{
+                        content: '';
+                        clear: both;
+                        display: block;
+                    }
+					.info-title{
+                        padding: 4px 0 14px;
+						a{
+                            font-size: 18px;
+                            font-weight: 600;
+							color: #4A4647;
+                            line-height: 25px;
+                            height: 50px;
+                            overflow: hidden;
+                            @media (max-width: 992px) {
+                                font-size: 17px;
+                                line-height: 24px;
+                            }
+                            &:hover{
+                                color: #FE6505;
+                            }
+						}				
+					}
+					//.rate{
+					//	i{
+					//		@include font-size(12px);
+					//		color: #c7c7c7;
+					//	}
+					//}
+					//.info-price{
+                    //    padding-bottom: 10px;
+                    //    padding-right: 10px;
+					//	.price_buy{
+                    //        font-family: SFProDisplay-Heavy;
+                    //        font-size: 17px;
+                    //        color: #ff0000;
+                    //        line-height: 22px;
+                    //    }
+					//	.price{
+                    //        font-size: 15px;
+					//		text-decoration: line-through;
+					//		color: #6d6d6d;
+                    //        line-height: 15px;
+					//	}
+					//}
+                    .group_date_add{
+                        padding-bottom: 13px;
+                        .date_begin{
+                            color: #FE6505;
+                        }
+                        .address{
+                            color: #979797;
+                            width: 100%;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                    }
+                    .event_owner{
+                        color: #4A4647;
+                        padding-bottom: 5px;
+                        width: 100%;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                    .num_follow{
+                        font-size: 14px;
+                        color: #4A4647;
+                        display: flex;
+                        align-items: center;
+                        img{
+                            margin-right: 6px;
+                        }
+                    }
+				}
+			}
+		}
+	}
+}
+.row_empty{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 50px 0;
+}
+.btn_viewmore{
+    text-align: center;
+    padding-top: 10px;
+    button{
+        font-size: 18px;
+        color: #FFF;
+        font-weight: 600;
+        background: #FE6505;
+        border-radius: 5px;
+        padding: 8px 33px 11px;
+        @media (max-width: 992px) {
+            padding: 6px 22px 9px;
+            font-size: 17px;
+        }
+        &:hover{
+            opacity: .9;
+        }
+        i{
+            width: 10.42px;
+            height: 10.4px;
+            background: url("../../../../../resources/images/use/icon_down.svg") no-repeat center;
+            background-size: contain;
+            filter: invert(100%) sepia(9%) saturate(7138%) hue-rotate(256deg) brightness(112%) contrast(89%);
+            margin-left: 13px;
+            display: inline-block;
+        }
+    }
+}

@@ -1,0 +1,207 @@
+.register-all{
+	margin: 20px 0;
+	display: inline-block;
+	width: 100%;
+	margin-top: 125px;
+}
+.register-all .register-box{
+	border: 1px solid #ccc;
+    width: 1000px;
+    margin: 0 auto;
+}
+.register-all .register-box .register-title{
+	background: #f0f0f0;
+	padding: 15px;
+}
+.register-all .register-box .register-title h2{
+	margin: 0;
+	font-size: 24px;
+}
+
+.register-all .register-box .register-content{
+	
+}
+.register-all .register-box .register-content form.form-horizontal{padding: 15px;}
+.register-all .register-box .register-content form.form-horizontal .form-group{}
+.register-all .register-box .register-content form.form-horizontal .form-group label{
+	text-align: left;
+}
+.register-all .register-box .register-content form.form-horizontal .form-group label span{
+	color: #cc0000;
+}
+.register-all .register-box .register-content form.form-horizontal .form-group input{
+	position: relative;
+}
+.register-all .register-box .register-content form.form-horizontal .form-group .capcha{
+	position: absolute;
+	bottom: 2px;
+    right: 16px;
+}
+.register-all .register-box .register-content .register-choise{
+
+}
+.register-all .register-box .register-content .register-choise .rc-title{
+	background: #f0f0f0;
+	padding: 15px;
+}
+.register-all .register-box .register-content .register-choise .rc-title p{}
+.register-all .register-box .register-content .register-choise .rc-title input{}
+.register-all .register-box .register-content .register-choise .rc-toggle{
+	display: none;
+}
+.register-all .register-box .register-content .register-choise .rc-toggle .form-group p{
+	font-size: 12px;
+	color: #ccc
+}
+.register-button{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+.register-button button{
+	background: #168b81;
+	font-size: 14px;
+	text-transform: uppercase;
+	border: 1px solid #168b81;
+	padding: 10px 55px;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+	margin: 20px;
+}
+@media (max-width: 991px){
+	.register-all .register-box{
+		width: auto;
+	}
+	.register-all{
+		margin-top: 194px;
+	}
+}
+@media (max-width: 676px){
+	.register-all {
+	    margin-top: 287px;
+	}
+}
+@media (max-width: 360px){
+	.register-all {
+	    margin-top: 305px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

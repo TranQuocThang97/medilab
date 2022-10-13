@@ -1,0 +1,138 @@
+/*Add font ================================*/
+#user_profile h1 {
+  font: 600 32px/150% "Sarabun";
+  color: #4A4647;
+}
+@media (max-width: 992px) {
+  #user_profile h1 {
+    font: 600 25px/150% "Sarabun";
+  }
+}
+#user_profile .content .user-form .box-avatar label.title {
+  font: 600 28px/150% "Sarabun";
+  color: #4A4647;
+  display: block;
+}
+#user_profile .content .user-form .box-avatar .avatar {
+  display: inline-block;
+}
+#user_profile .content .user-form .box-avatar .avatar input {
+  display: none;
+}
+#user_profile .content .user-form .box-avatar .avatar .img-preview {
+  background: #003A86;
+  width: 235px;
+  height: 220px;
+}
+#user_profile .content .user-form .box-avatar .avatar .img-preview img {
+  width: 100%;
+  height: 100%;
+}
+#user_profile .content .user-form .box-avatar .avatar .btn-group {
+  border: 1px solid #707070;
+  border-top: 0;
+  width: 100%;
+  min-height: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#user_profile .content .user-form .box-avatar .avatar .btn-group .btn {
+  background: transparent;
+  flex: 1 1;
+  max-width: unset;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  transition: 300ms ease-in-out;
+}
+#user_profile .content .user-form .box-avatar .avatar .btn-group .btn .icon {
+  padding-right: 9px;
+}
+#user_profile .content .user-form .box-avatar .avatar .btn-group .btn:hover {
+  background: gainsboro;
+}
+@media (min-width: 768px) {
+  #user_profile .content .user-form .box-avatar .avatar .btn-group .btn-crop {
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) {
+  #user_profile .content .user-form .box-avatar .avatar .btn-group .btn-remove {
+    margin-right: 0;
+  }
+}
+#user_profile .content .user-form hr {
+  background: #707070;
+  margin: 35px 0;
+}
+#user_profile .content .user-form .group .group-title {
+  font: 600 28px/150% "Sarabun";
+  color: #4A4647;
+  margin: 10px 0 25px;
+}
+#user_profile .content .user-form .group .form-group {
+  margin-bottom: 15px;
+}
+#user_profile .content .user-form .group .form-group label.title {
+  font: 400 20px/150% "Sarabun";
+  color: #4A4647;
+}
+#user_profile .content .user-form .group .form-group label.title .required {
+  color: #f00;
+}
+#user_profile .content .user-form .group .form-group input {
+  font: 400 20px/150% "Sarabun";
+  color: #979797;
+  border: 1px solid #707070;
+  height: 40px;
+  padding: 5px 23px;
+}
+#user_profile .content .user-form .group .form-group input::-moz-placeholder {
+  color: #979797;
+}
+#user_profile .content .user-form .group .form-group input:-ms-input-placeholder {
+  color: #979797;
+}
+#user_profile .content .user-form .group .form-group input::placeholder {
+  color: #979797;
+}
+#user_profile .content .user-form .group .form-group .select2 .select2-selection--single {
+  border: 1px solid #707070;
+  height: 40px;
+  padding: 0 23px;
+}
+#user_profile .content .user-form .group .form-group .select2 .select2-selection--single .select2-selection__rendered {
+  font: 400 20px/150% "Sarabun";
+  color: #979797;
+  line-height: 40px;
+  padding: 0;
+}
+
+#box-crop {
+  border: 1px solid #ff6508;
+  border-radius: 8px;
+  box-shadow: 0 0 18px rgba(255, 101, 8, 0.5);
+  max-width: 450px;
+  max-height: 420px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: unset;
+}
+#box-crop #img-crop {
+  position: relative;
+}
+#box-crop #img-crop .cr-slider-wrap {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+#box-crop .update-img {
+  position: absolute;
+  top: calc(100% + 15px);
+  left: 50%;
+  transform: translateX(-50%);
+}/*# sourceMappingURL=account.css.map */

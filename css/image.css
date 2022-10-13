@@ -1,0 +1,361 @@
+/*Add font ================================*/
+#image_manager .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 25px;
+}
+#image_manager .logo .item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  max-width: 25%;
+  height: 58px;
+}
+#image_manager .logo .item .img {
+  width: 100%;
+  height: 100%;
+  padding: 20px 15px;
+}
+#image_manager .logo .item .img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+#image_manager .info {
+  text-align: center;
+}
+#image_manager .info h1 {
+  font: 700 20px/150% "Sarabun";
+  text-transform: uppercase;
+  color: #04457A;
+}
+#image_manager .info .date {
+  font: 400 14px/150% "Sarabun";
+  color: #4A4647;
+  padding: 12px 0;
+}
+#image_manager .info .organizer {
+  font: 300 15px/150% "Sarabun";
+  color: #4A4647;
+}
+#image_manager .info .organizer span {
+  font: 400 15px/150% "Sarabun";
+  color: #04457A;
+}
+#image_manager .box_tab {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+#image_manager .box_tab .nav {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#image_manager .box_tab .nav .nav-item .nav-link {
+  font: 600 20px/1 "Sarabun";
+  color: #4A4647;
+  background-color: transparent;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+  padding: 0 15px 10px;
+  margin: 0 10px;
+  margin-bottom: -5px;
+}
+#image_manager .box_tab .nav .nav-item .nav-link.active {
+  color: #FF6505;
+  background-color: transparent;
+  border-bottom-color: #FF6505;
+}
+#image_manager .box_content .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+}
+#image_manager .box_content .title h2 {
+  font: 700 20px/150% "Sarabun";
+  color: #04457A;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  max-width: 100%;
+  margin-right: auto;
+}
+#image_manager .box_content .title .btn {
+  border-radius: 50px;
+  min-width: 150px;
+  min-height: 45px;
+}
+@media (min-width: 576px) {
+  #image_manager .box_content .title .dropdown {
+    margin-left: 21px;
+  }
+}
+#image_manager .box_content .title .dropdown .dropdown-item.active,
+#image_manager .box_content .title .dropdown .dropdown-item:active {
+  background-color: #FE6505;
+}
+
+.box_form {
+  width: 100%;
+  max-width: 1024px;
+}
+.box_form form .label-title {
+  font: 700 20px/150% "Sarabun";
+  text-transform: uppercase;
+  color: #04457A;
+  display: block;
+  padding: 0px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+.box_form form .progress-bar {
+  background-color: #FE6505;
+}
+
+.list_image .row {
+  margin: 0 -12px;
+}
+.list_image .row .item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  max-width: 50%;
+  padding: 12px;
+  position: relative;
+  overflow: hidden;
+}
+@media (min-width: 576px) {
+  .list_image .row .item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.3333333333%;
+            flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+}
+@media (min-width: 768px) {
+  .list_image .row .item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+@media (min-width: 1200px) {
+  .list_image .row .item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+            flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+.list_image .row .item .img img {
+  width: 100%;
+  height: auto;
+}
+.list_image .row .item .title {
+  font: 400 14px/150% "Sarabun";
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 8px 8px 0 0;
+  word-wrap: break-word;
+  word-break: break-word;
+  padding: 10px 5px;
+  position: absolute;
+  bottom: -200px;
+  left: 12px;
+  right: 12px;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+}
+.list_image .row .item .box-edit {
+  display: none;
+}
+.list_image .row .item .box-edit .toggle {
+  min-width: 100%;
+  min-height: 35px;
+}
+.list_image .row .item .box-edit .toggle label {
+  font: 700 16px/150% "Sarabun";
+  text-transform: uppercase;
+}
+.list_image .row .item .box-edit textarea {
+  font: 400 14px/150% "Sarabun";
+  text-align: center;
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  padding: 10px 5px;
+}
+.list_image .row .item .checkbox {
+  display: none;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+.list_image .row .item .checkbox input {
+  visibility: hidden;
+  display: none;
+}
+.list_image .row .item .checkbox input.checked + label:after, .list_image .row .item .checkbox input:checked + label:after {
+  color: #fff;
+  background: #FF6505;
+}
+.list_image .row .item .checkbox input:checked + label:after {
+  opacity: 1;
+}
+.list_image .row .item .checkbox label {
+  font: 600 14px/150% SFProDisplay-Regular, sans-serif;
+  color: #4d4d4d;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.list_image .row .item .checkbox label:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  margin: 0;
+  -webkit-transition: 200ms linear;
+  transition: 200ms linear;
+}
+.list_image .row .item .checkbox label:after {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 400;
+  font-size: 1.3333333333rem;
+  width: 32px;
+  height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #0155f5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: transparent;
+  opacity: 0;
+  -webkit-transition: 200ms linear;
+  transition: 200ms linear;
+}
+.list_image .row .item .checkbox:hover label:before {
+  border-color: #FF6505;
+}
+.list_image .row .item:hover .title {
+  bottom: 12px;
+}
+.list_image .bottom {
+  background: #fff;
+  min-height: 100px;
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0 4%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.list_image .bottom:after {
+  content: "";
+  background: #fff;
+  -webkit-box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.05);
+  width: 120vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 1;
+}
+.list_image .bottom .row {
+  position: relative;
+  z-index: 2;
+}
+.list_image .bottom .row .btn {
+  font: 400 18px/150% "Sarabun";
+  border: 1px solid #4A4647;
+  border-radius: 4px;
+  min-width: 162px;
+  min-height: 47px;
+  margin: 0 7.5px;
+}
+.list_image .bottom .row .btn.btn-update {
+  color: #fff;
+  border-color: #FE6505;
+  display: none;
+}
+.list_image .bottom .row .btn.btn-remove {
+  color: #fff;
+  border-color: #FE6505;
+  display: none;
+}
+.list_image .bottom .row .btn.btn-cancel {
+  background: #fff;
+}
+.list_image .bottom .row .btn:hover {
+  opacity: 0.9;
+}
+.list_image.show_edit .row .item .title {
+  display: none !important;
+}
+.list_image.show_edit .row .item .box-edit {
+  display: block;
+}
+.list_image.show_edit .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.list_image.show_edit .bottom .btn-update {
+  display: block !important;
+}
+.list_image.show_remove .row .item .checkbox {
+  display: block;
+}
+.list_image.show_remove .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.list_image.show_remove .bottom .btn-remove {
+  display: block !important;
+}

@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Helvetica/helvetica-regular-webfont.eot?#iefix") format("embedded-opentype"), 
+    url("../fonts/Helvetica/helvetica-regular-webfont.woff") format("woff"), 
+    url("../fonts/Helvetica/helveticaneue.ttf") format("truetype"), 
+    url("../fonts/Helvetica/helvetica-regular-webfont.svg#helvetica") format("svg");
+}
+@font-face {
+    font-family: "Helvetica";
+    font-style: italic;
+    font-weight: 400;
+    src: url("../fonts/Helvetica/helvetica-italic-webfont.eot?#iefix") format("embedded-opentype"), 
+    url("../fonts/Helvetica/helvetica-italic-webfont.woff") format("woff"), 
+    url("../fonts/Helvetica/helvetica-italic-webfont.ttf") format("truetype"), 
+    url("../fonts/Helvetica/helvetica-italic-webfont.svg#helvetica") format("svg");
+}
+@font-face {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/Helvetica/helvetica-bold-webfont.eot?#iefix") format("embedded-opentype"), 
+    url("../fonts/Helvetica/helvetica-bold-webfont.woff") format("woff"), 
+    url("../fonts/Helvetica/helveticaneuebold.ttf") format("truetype"), 
+    url("../fonts/Helvetica/helvetica-bold-webfont.svg#helvetica") format("svg");
+}
+@font-face {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/Helvetica/helvetica-light-webfont.eot?#iefix") format("embedded-opentype"), 
+    url("../fonts/Helvetica/helvetica-light-webfont.woff") format("woff"), 
+    url("../fonts/Helvetica/helveticaneuelight.ttf") format("truetype"), 
+    url("../fonts/Helvetica/helvetica-light-webfont.svg#helvetica") format("svg");
+}

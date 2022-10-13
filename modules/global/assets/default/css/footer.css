@@ -1,0 +1,217 @@
+footer {
+  background: linear-gradient(to right, #fbffff, #e8f0f1);
+  background-size: cover;
+  position: relative;
+  color: #404040;
+}
+footer:before {
+  content: "";
+  width: 72%;
+  height: 100%;
+  background: url("../../../../../resources/images/use/bg_footer.png") no-repeat center;
+  background-size: 100% auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 0.25;
+}
+footer .container {
+  position: relative;
+  z-index: 1;
+}
+footer .footer_title, footer .footer-menu-title {
+  font-weight: 600;
+  color: #042F5E;
+  display: block;
+  line-height: unset;
+  text-align: left;
+  text-transform: uppercase;
+  padding-bottom: 16px;
+}
+@media (max-width: 992px) {
+  footer .footer_title, footer .footer-menu-title {
+    padding-bottom: 12px;
+  }
+}
+footer .top {
+  padding-top: 58px;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 992px) {
+  footer .top {
+    padding-top: 30px;
+  }
+}
+footer .footer_logo {
+  width: 50%;
+  padding-right: 15px;
+  padding-bottom: 25px;
+}
+@media (max-width: 900px) {
+  footer .footer_logo {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+footer .footer_logo .logo {
+  padding-bottom: 30px;
+}
+footer .footer_logo .logo img {
+  max-width: 200px;
+}
+footer .contact_footer {
+  max-width: 422px;
+  text-align: justify;
+}
+@media (max-width: 900px) {
+  footer .contact_footer {
+    max-width: 100%;
+  }
+}
+footer .contact_footer .banner_item p {
+  padding-left: 26px;
+  position: relative;
+  line-height: 20px;
+}
+footer .contact_footer .banner_item p:not(:last-child) {
+  padding-bottom: 10px;
+}
+footer .contact_footer .banner_item p:before {
+  content: "";
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+footer .contact_footer .banner_item p.address:before {
+  width: 17px;
+  height: 20px;
+  background: url("../../../../../resources/images/use/address.svg") no-repeat;
+  background-size: contain;
+  top: 5px;
+}
+footer .contact_footer .banner_item p.phone:before {
+  background: url("../../../../../resources/images/use/phone.svg") no-repeat;
+  background-size: contain;
+}
+footer .contact_footer .banner_item p.email:before {
+  background: url("../../../../../resources/images/use/email.svg") no-repeat;
+  background-size: contain;
+}
+footer .list_menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+  padding-top: 17px;
+}
+@media (max-width: 900px) {
+  footer .list_menu {
+    width: 100%;
+  }
+}
+footer .list_menu .menu {
+  flex: 0 0 auto;
+}
+@media (max-width: 375px) {
+  footer .list_menu .menu {
+    width: 100%;
+  }
+}
+footer .menu {
+  padding-bottom: 25px;
+}
+footer .menu:not(:last-child) {
+  padding-right: 15px;
+}
+footer .menu > ul > li, footer .menu-item > ul > li {
+  padding-bottom: 10px;
+}
+@media (max-width: 992px) {
+  footer .menu > ul > li, footer .menu-item > ul > li {
+    padding-bottom: 6px;
+  }
+}
+footer .menu > ul > li:last-child, footer .menu-item > ul > li:last-child {
+  padding-bottom: 0;
+}
+footer .menu > ul > li ul, footer .menu-item > ul > li ul {
+  display: none;
+}
+footer .list_social {
+  display: flex;
+  padding-top: 20px;
+  margin: 0 -12px;
+}
+footer .list_social li {
+  padding: 0 12px;
+}
+footer .bottom {
+  position: relative;
+  padding: 8px 0 2px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 992px) {
+  footer .bottom {
+    padding: 8px 0 3px;
+  }
+}
+footer .bottom:before {
+  content: "";
+  width: 100vw;
+  height: 100%;
+  background: #DBDBDB;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+footer .bottom .copyright {
+  position: relative;
+  padding-bottom: 5px;
+}
+@media (max-width: 425px) {
+  footer .bottom .copyright {
+    width: 100%;
+    text-align: center;
+  }
+}
+footer .bottom .menu3 {
+  position: relative;
+  padding-bottom: 5px;
+}
+@media (max-width: 425px) {
+  footer .bottom .menu3 {
+    width: 100%;
+  }
+}
+footer .bottom .menu3 ul {
+  display: flex;
+  margin: 0 -20px;
+}
+@media (max-width: 992px) {
+  footer .bottom .menu3 ul {
+    margin: 0 -8px;
+  }
+}
+@media (max-width: 425px) {
+  footer .bottom .menu3 ul {
+    justify-content: center;
+  }
+}
+footer .bottom .menu3 ul li {
+  padding: 0 20px;
+}
+@media (max-width: 992px) {
+  footer .bottom .menu3 ul li {
+    padding: 0 8px;
+  }
+}
+footer .bottom .menu3 ul ul {
+  display: none;
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,11 @@
+#rate {
+  display: inline-block; }
+#rate a {
+    font-size: 16px;
+    padding: 0 0px;
+    cursor: pointer;
+    color: #666767;
+    text-decoration: none; }
+#rate a:hover{
+	text-decoration: initial;
+}

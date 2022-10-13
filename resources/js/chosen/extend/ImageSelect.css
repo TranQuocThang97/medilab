@@ -1,0 +1,85 @@
+/**
+ * Image Select Styles
+ *
+ * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca) & AlterSpark Corp. (http://www.alterspark.com)
+ * @license   http://www.opensource.org/licenses/mit-license.php MIT
+ * @link      http://websemantics.ca
+ * @package   websemantics/image-select
+ */
+
+/* Tag image */
+.chose-image {
+	width:55px;
+	max-height:55px;
+	padding: 2px 5px 3px 0px;
+	vertical-align:middle;
+}
+.chose-color{
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+	vertical-align: middle;
+    border: 1px solid #ccc;
+    margin-right: 3px;
+}
+
+.chose-image.rtl {
+	padding: 2px 0px 3px 5px;
+}
+.chose-color.rtl{
+    margin-left: 3px;
+}
+
+/* Image for Single mode */
+.chose-image-small {
+	width:30%;
+	max-height:18px;
+	vertical-align: middle;
+	margin: -3px 0 0 0;
+	padding: 0 3px 0 0;
+}
+.chose-color-small{
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+	vertical-align: middle;
+    border: 1px solid #ccc;
+    margin-right: 3px;
+}
+
+.chose-image-small.rtl {
+	padding: 0 0 0 3px;
+}
+.chose-color-small.rtl{
+    margin-left: 3px;
+}
+
+/* Images appended to the li(s) */
+.chose-image-list {
+	width:30%;
+	max-height:50px;
+	vertical-align: middle;
+	margin: -3px 0 0 0;
+	padding: 0 3px 0 0;
+}
+.chose-color-list{
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+	vertical-align: middle;
+    border: 1px solid #ccc;
+    margin-right: 3px;
+}
+
+.chose-image-list.rtl {
+	padding: 0 0 0 3px;
+}
+.chose-color-list.rtl{
+    margin-left: 3px;
+}
+
+/* Grey-out image for Multi mode */
+div.chosen-container-multi .result-selected img {
+	opacity: 0.3;
+}

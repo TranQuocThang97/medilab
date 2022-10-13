@@ -1,0 +1,126 @@
+/*Add font ================================*/
+.contact {
+  padding-bottom: 30px;
+}
+
+#contact_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 20px;
+  margin: 0 -15px;
+}
+#contact_content .title_more {
+  font: 300 14px/150% SFProDisplay-Regular, sans-serif;
+  color: #525252;
+  display: block;
+}
+#contact_content .contact_right {
+  background: #fafafa;
+  padding: 20px 15px;
+}
+@media (min-width: 992px) {
+  #contact_content .contact_left {
+    padding-right: 20px;
+  }
+  #contact_content .contact_right {
+    background: #fafafa;
+    padding: 20px 30px;
+  }
+}
+
+#contact_form {
+  width: 100%;
+  float: left;
+  padding: 15px 0;
+}
+#contact_form .form-group {
+  margin-bottom: 7.5px;
+}
+#contact_form input, #contact_form textarea {
+  border: 1px solid #e9e9e9;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+#contact_form input:focus, #contact_form textarea:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+#contact_form .btn-contact {
+  font: 600 18px/150% "Muli", sans-serif;
+  color: #fff;
+  background: #007ce4;
+  padding: 7px 20px;
+  margin-top: 10px;
+}
+
+#contact_form .form_note {
+  padding-bottom: 7px;
+}
+#contact_form .form_note span {
+  font: 300 14px/150% SFProDisplay-Regular, sans-serif;
+  color: #787878;
+}
+
+#contact_form label.error {
+  float: none;
+  display: block;
+  width: 100%;
+  text-align: right;
+}
+
+#contact_info {
+  width: 100%;
+  float: left;
+  padding: 15px 0;
+}
+
+#contact_info .contact_info {
+  padding-bottom: 5px;
+}
+
+#contact_info .contact_info p {
+  font: 400 14px/150% SFProDisplay-Regular, sans-serif;
+  color: #1c1c1c;
+  margin: 0px;
+  padding: 5px 0px;
+}
+
+#contact_map {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  padding-top: 90%;
+  position: relative;
+}
+
+#map_canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#map_canvas a {
+  background: none;
+}
+
+@media (max-width: 991px) {
+  #contact_map,
+#contact_form {
+    width: 100%;
+  }
+  #contact_map {
+    margin: 0;
+  }
+}
+@media (max-width: 399px) {
+  #contact_form label,
+#contact_form .input_text,
+#contact_form .textarea {
+    width: 100%;
+  }
+}
